@@ -1,0 +1,71 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+#wrapper{
+    display: grid;
+}
+@media(min-width: 320px){
+    
+    header{
+        background-color: #fca311;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Red Hat Mono', monospace;
+        color: #14213d;
+        
+    }
+    #linkedin{
+        margin-left: 85%;  
+        margin-top: 2%;  
+    }
+    #linkedlogo{
+        max-width: 70%;
+
+    }
+    header>img{
+        max-width: 40%;
+        border-radius: 100%;
+        margin-top: -6%;
+    }
+    header>h1{
+        margin: auto;
+        font-size: 9vw;
+    }
+    header>h2{
+        margin: auto;
+        margin-bottom: 5%;
+        font-size: 7vw;
+    }
+    nav{
+        background-color: #14213d;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        color: #fca311;
+        padding: 5% 0;
+    }
+    .button{
+        border: #fca311 solid 2px;
+        padding: 2% 3%;
+        font-weight: 600;
+        font-size: 1.1rem;
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: center;
+        height: 80%;
+    }
+    /* REMEMBER YOU PUT :HOVER AND :ACTIVE HERE */
+    .button:link, .button:visited, .button:hover, .button:active{
+        color: #fca311;
+        text-decoration: none;
+    }
+}
