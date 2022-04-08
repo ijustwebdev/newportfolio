@@ -31,11 +31,13 @@ html{
     header>h1{
         margin: auto;
         font-size: 9vw;
+        font-weight: 500;
     }
     header>h2{
         margin: auto;
         margin-bottom: 5%;
         font-size: 7vw;
+        font-weight: 500;
     }
     nav{
         background-color: #14213d;
@@ -50,9 +52,9 @@ html{
     .button{
         border: #fca311 solid 2px;
         padding: 2% 3%;
-        font-weight: 600;
-        font-size: 1.1rem;
-        width: 25%;
+        font-weight: 500;
+        font-size: .9rem;
+        width: 24%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -68,4 +70,28 @@ html{
         color: #fca311;
         text-decoration: none;
     }
+    section{
+        background-color: #14213d;
+        /* Strictly so I can remove that pesky 1px line */
+        margin-top: -1%; 
+        width: 100%;
+    }
+    #herocontainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #heroimage{
+        width: 90%;
+    }
+    #heroimagetext{
+        color: #fca311;
+        font-family: 'Red Hat Mono', monospace;
+        font-size: 1.2rem;
+        align-self: flex-start;
+        margin-left: 10%;
+        margin-top: -8%;
+    }
+
 }
