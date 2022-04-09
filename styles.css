@@ -53,7 +53,7 @@ html{
         border: #fca311 solid 2px;
         padding: 2% 3%;
         font-weight: 500;
-        font-size: .9rem;
+        font-size: 4.5vw;
         width: 24%;
         display: flex;
         flex-direction: row;
@@ -88,10 +88,46 @@ html{
     #heroimagetext{
         color: #fca311;
         font-family: 'Red Hat Mono', monospace;
-        font-size: 1.2rem;
+        font-size: 5vw;
         align-self: flex-start;
         margin-left: 10%;
+        /* this line plus #whitebar's margin-top combine so the heroimagetext can be positioned correctly */
         margin-top: -8%;
+    }
+    #whitebar{
+        background-color: white;
+        width: 90%;
+        margin-top: 2%;
+    }
+    #builtwith{
+        font-size: 4vw;
+        font-weight: 600;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-family: 'Open Sans', sans-serif;
+        color: #14213d;
+    }
+    #badgecontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .badgeimg{
+        width: 90%;
+    }
+    .badge{
+        width: 12%;
+        margin-left: 3%;
+        margin-top: 2%;
+        align-content: flex-start;
+        
+    }
+    #githubbadge{
+        margin-left: auto;
+        margin-right: 2%;
+        width: 10%;
+        align-self: flex-end;
     }
 
 }
