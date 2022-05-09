@@ -1,5 +1,5 @@
 
-# A hopefully better designed portfolio now that I have something already up.
+# A hopefully better designed portfolio now that I have something already up. My old drive died so I lost all my software, images, and configs haha. I've been slowed by that recently. 
 
 Here's what I hope to make for mobile:
 
