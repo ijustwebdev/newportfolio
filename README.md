@@ -1,6 +1,4 @@
 
-# Probably won't finish this. 
-
 Here's what I hope to make for mobile:
 
 ![001644](https://user-images.githubusercontent.com/50127921/162367202-52e29875-84e0-4055-9034-53309df60573.png)
